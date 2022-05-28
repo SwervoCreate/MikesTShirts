@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+body {
+    background-image: url(/Resources/8bitbackground.jpg);
+    background-size: cover;
+    background-position: fixed;
+}
+
+
+header h1 {
+    font-size: 50px;
+    color: yellow;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+    text-align: center;
+    border: 2px solid gold;
+    padding: 10px;
+    background-color: #8A6FDF;
+    position: relative;
+    outline: none;
+    box-shadow: 0 0 10px gold;
+    font-family: 'Fredoka One', cursive;   
+}
+
+.menu {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  justify-content: center;
+  text-align: center; 
+  border-radius: 10px;
+  padding-bottom: 15px;
+  
+}
+
+.menu div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    height: 5vh;
+    width: 100vw;
+    font-size:large; 
+    background-color: #8A6FDF;
+    margin-bottom: 25px;
+}
+
+.menu div:hover {
+    border-color: yellow;
+    outline: none;
+    box-shadow: 0 0 10px yellow;
+    
+}
+
+
+.menu button {
+    height: 100%;
+    width: 100%;
+    background: none;
+    border: none;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Fredoka One', cursive;
+    color: yellow;
+}
+
+.menu button:hover {
+    cursor: pointer;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    float: right;
+    height: 45vh;
+    width: 77vw;
+    gap: 50px;
+    row-gap: 50px;
+    padding: 20px;
+    padding-right: 0;
+    
+    
+    
+}
+
+.container div {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    background-color: #8A6FDF;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.container button {
+    background: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+    font-size: 35px;
+    font-family: 'Fredoka One', cursive;
+    color: yellow;  
+}
+
+.container button:hover {
+    cursor: pointer;
+    border-color: yellow;
+    outline: none;
+    box-shadow: 0 0 15px yellow;
+}
+
+
+.container button:hover span {
+    display: none;
+}
+
+.container button:hover:before {
+    content: "Shop Now";
+    color: yellow;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #0fa,
+        0 0 82px #0fa,
+        0 0 92px #0fa,
+        0 0 102px #0fa,
+        0 0 151px #0fa;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    outline: none;
+    
+}
+
+.sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr;
+    height: 100vh;
+    width: 20vw;
+    position: absolute;
+    row-gap: 10px;
+    border-radius: 10px;
+    
+}
+
+.sidebar div {
+    border: 2px solid yellow;
+    border-radius: 10px;
+    background-color:#8A6FDF;
+}
+
+.sidebar div:hover {
+    border-color: yellow;
+    outline: none;
+    box-shadow: 0 0 10px yellow;
+    cursor: pointer;
+}
+
+.display-container {
+    display: flex;
+    height: 45vh;
+    width: 70vw;
+    padding: 0;
+    overflow-y: scroll;
+    scrollbar-color: violet;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: relative;
+    float: right;
+    border: 2px solid gold;
+    padding: 10px;
+    background-color: black;
+    outline: none;
+    box-shadow: 0 0 10px gold;
+    border-radius: 7px;
+}
+
+
+
+.display-container img {
+    height: 80%;
+    border: 2px solid gold;
+    padding: 10px;
+    background-color: black;
+    outline: none;
+    box-shadow: 0 0 10px gold;
+    border-radius: 7px;
+    position: sticky; 
+}
+
+
+
+.mens-shirts {
+    background-image: url(/Resources/RackOfShirts.jpg);
+    background-size: cover;
+}
+
+.womens-shirts {
+    background-image: url(/Resources/WomensShirts.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+.unisex {
+    background-image: url(/Resources/UnixsexShirts.jpg);
+    background-size: cover;
+}
+
+.sweatshirts {
+    background-image: url("/Resources/sweatshirts.jpg");
+    background-size: cover;
+}
+
+.form {
+    background-image: url("/Resources/Form.jpg");
+    background-size: cover;
+}
+
+.past-designs {
+    background-image: url("/Resources/watch.jpg");
+    background-size: cover;
+}
+
+.shopping-panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    width: 75vw;
+    height: 90vw;
+    float: right;
+}
+
+.shopping-panel div {
+    height: 20vh;
+    width: 20vw;
+}
