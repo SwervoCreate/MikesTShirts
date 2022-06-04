@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Mikes T-Shirts</h1>
+  </div>
+  <div class="menu">
+      <div><button onclick="location.href = '/index.html';">Home Page</button></div>
+      <div><button>T-Shirt Design Proposal</button></div>
+      <div><button>Online Shop</button></div>
+      <div><button>Support</button></div>
+      <div><button>Illis Septum</button></div>
+  </div>
+  </header>
+  <section class="design-form">
+      <div id="sidebarContainer">
+        <div class="sidebar">
+          <img src="/Resources/home.png" alt="home">
+        </div>
+        <div class="sidebar">
+          <img src="/Resources/user.png" alt="User Profile">
+        </div>
+        <div class="sidebar">
+          <img src="/Resources/winner.png" alt="Check Rewards">
+        </div>
+        <div class="sidebar">
+          <img src="/Resources/customer-care.png" alt="Customer Support">
+        </div>
+        <div class="sidebar">
+          <img src="/Resources/news.png" alt="Announcments">
+        </div>
+        <div class="sidebar"></div>
+      </div>
+      <button id="menuBtn">Menu</button>
+      <button id="closeBtn">CLOSE</button>
+    <div class="form-container">
+      <form action="mailto:brycegabehart@gmail.com" method="POST">
+        <div class="input-container">
+          
+        <div class="fName">
+          <label for="fName">First Name</label>
+          <input type="text" name="fName" id="fName" placeholder="John">
+        </div>
+        <div class="lName">
+          <label for="lName">Last Name</label>
+          <input type="text" name="lName" id="lName" placeholder="Doe">
+        </div>
+        <div class="gender">
+           <label for="male">Male</label>
+            <input type="checkbox" id="male" value="male" name="male"> 
+            <label for="female">Female</label>
+            <input type="checkbox" id="female" value="female" name="female">
+            <label for="unisex">Unisex</label>
+            <input type="checkbox" id="unisex" value="unisex" name="unisex">
+        </div>
+        <div class="email">
+          <label for="email">E-Mail Address</label>
+          <input type="email" name="email" id="email" placeholder="example@example.com">
+        </div> 
+          <div class="submitImg">
+            <label for="submitImg">Image of Design</label>
+            <input type="file" id="submitImg" name="submitImg"
+                   accept="image/png, image/jpeg">
+          </div>
+          <div class="submitBtn">
+            <input type="submit" name="submitBtn" id="submitBtn" value="Submit Form">
+          </div>
+        </div>
+      </form>
+    </div>
+    <div id="container">
+     
+    </div>
+  </section>
+
+</body>
+<script src="app.js"></script>
+</html>
